@@ -1,1 +1,32 @@
-<p>login works!</p>
+<div class="login-container">
+  <div class="login-box">
+    <h2>Bienvenido!</h2>
+    <br>
+    <form (ngSubmit)="onLogin()" #loginForm="ngForm">
+      <div class="input-group">
+        <input
+          type="email"
+          name="email"
+          placeholder="Usuario"
+          [(ngModel)]="email"
+          required
+        />
+      </div>
+      <div class="input-group">
+        <input
+          type="password"
+          name="lat"
+          placeholder="Clave"
+          [(ngModel)]="lat"
+          required
+        />
+      </div>
+      <br>
+      <button type="submit" [disabled]="loginForm.invalid">Ingresar</button>
+    </form>
+
+    <div *ngIf="showError" class="message error">
+      {{ errorMessage }}
+    </div>
+  </div>
+</div>
