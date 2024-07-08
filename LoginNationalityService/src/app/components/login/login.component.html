@@ -1,13 +1,13 @@
 <div class="login-container">
   <div class="login-box">
-    <h2>Bienvenido!</h2>
+    <h2>{{ 'WELCOME' | translate }}</h2>
     <br>
     <form (ngSubmit)="onLogin()" #loginForm="ngForm">
       <div class="input-group">
         <input
           type="email"
           name="email"
-          placeholder="Usuario"
+          placeholder="{{ 'USER' | translate }}"
           [(ngModel)]="email"
           required
         />
@@ -16,13 +16,13 @@
         <input
           type="password"
           name="lat"
-          placeholder="Clave"
+          placeholder="{{ 'PASWORD' | translate }}"
           [(ngModel)]="lat"
           required
         />
       </div>
       <br>
-      <button type="submit" [disabled]="loginForm.invalid">Ingresar</button>
+      <button type="submit" [disabled]="loginForm.invalid">{{ 'LOGIN' | translate }}</button>
     </form>
 
     <div *ngIf="showError" class="message error">

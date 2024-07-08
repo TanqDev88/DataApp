@@ -1,4 +1,7 @@
 {
   "HELLO": "Hola",
-  "WELCOME": "Bienvenido"
+  "WELCOME": "Bienvenido",
+  "LOGIN": "Iniciar sesion",
+  "USER": "Usuario",
+  "PASWORD": "Contraseña"
 }

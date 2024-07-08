@@ -1,4 +1,7 @@
 {
   "HELLO": "Hello",
-  "WELCOME": "Welcome"
+  "WELCOME": "Welcome",
+  "LOGIN": "Login",
+  "USER": "User",
+  "PASWORD": "Pasword"
 }
