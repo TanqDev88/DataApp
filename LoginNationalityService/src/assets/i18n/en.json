@@ -3,5 +3,8 @@
   "WELCOME": "Welcome",
   "LOGIN": "Login",
   "USER": "User",
-  "PASWORD": "Pasword"
+  "PASWORD": "Pasword",
+  "ENTERNAME": "Enter name",
+  "NAME": "Name",
+  "GETINFORMATIONS": "Get data"
 }

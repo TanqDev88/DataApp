@@ -1,6 +1,6 @@
 <div class="form-container">
   <div class="form-box">
-    <h2>Ingresar nombre:</h2>
+    <h2>{{ 'ENTERNAME' | translate }}</h2>
     <br>
     <form (ngSubmit)="onSubmit()" #nameForm="ngForm">
       <div class="input-group">
@@ -8,14 +8,14 @@
           type="text"
           id="nameInput"
           name="name"
-          placeholder="Nombre"
+          placeholder="{{ 'NAME' | translate }}"
           [(ngModel)]="name"
           required
         />
 
       </div>
       <br>
-      <button type="submit" [disabled]="nameForm.invalid">Obtener Datos</button>
+      <button type="submit" [disabled]="nameForm.invalid">{{ 'GETINFORMATIONS' | translate }}</button>
     </form>
 
     <div *ngIf="genderData" class="info-card">
