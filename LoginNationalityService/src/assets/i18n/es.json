@@ -6,5 +6,8 @@
   "PASWORD": "Contraseña",
   "ENTERNAME": "Ingresar nombre",
   "NAME": "Nombre",
-  "GETINFORMATIONS": "Obtner datos"
+  "GENDER": "Género",
+  "PROBABILITY": "Probabilidad",
+  "PROBABILITY_COUNTRY": "Probabilidad por pais",
+  "GET_INFORMATIONS": "Obtner datos"
 }

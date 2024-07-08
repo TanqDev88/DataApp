@@ -6,5 +6,8 @@
   "PASWORD": "Pasword",
   "ENTERNAME": "Enter name",
   "NAME": "Name",
-  "GETINFORMATIONS": "Get data"
+  "GENDER": "Gender",
+  "PROBABILITY": "Probability",
+  "PROBABILITY_COUNTRY": "Probability by country",
+  "GET_INFORMATIONS": "Get data"
 }

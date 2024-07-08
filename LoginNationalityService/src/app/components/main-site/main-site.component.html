@@ -15,21 +15,21 @@
 
       </div>
       <br>
-      <button type="submit" [disabled]="nameForm.invalid">{{ 'GETINFORMATIONS' | translate }}</button>
+      <button type="submit" [disabled]="nameForm.invalid">{{ 'GET_INFORMATIONS' | translate }}</button>
     </form>
 
     <div *ngIf="genderData" class="info-card">
       <div class="info-card-body">
-        <h5 class="info-card-title">Género: {{ genderData.gender }}</h5>
-        <p class="info-card-text">Probabilidad: {{ genderData.probability }}</p>
+        <h5 class="info-card-title">{{ 'GENDER' | translate }}: {{ genderData.gender }}</h5>
+        <p class="info-card-text">{{ 'PROBABILITY' | translate }}: {{ genderData.probability }}</p>
       </div>
     </div>
 
     <div *ngIf="nationalityData" class="info-card">
-      <div class="info-card-header">Probabilidad por pais</div>
+      <div class="info-card-header">{{ 'PROBABILITY_COUNTRY' | translate }}</div>
       <ul class="info-card-list">
         <li *ngFor="let country of nationalityData.country">
-          {{ country.country_id }} - Probabilidad: {{ country.probability }}
+          {{ country.country_id }} - {{ 'PROBABILITY' | translate }} {{ country.probability }}
         </li>
       </ul>
     </div>
