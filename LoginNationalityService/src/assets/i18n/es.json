@@ -9,5 +9,7 @@
   "GENDER": "Género",
   "PROBABILITY": "Probabilidad",
   "PROBABILITY_COUNTRY": "Probabilidad por pais",
-  "GET_INFORMATIONS": "Obtner datos"
+  "GET_INFORMATIONS": "Obtner datos",
+  "ERROR_MESSAJE": "Datos incorrectos. Revise usuario y/o clave"
+
 }

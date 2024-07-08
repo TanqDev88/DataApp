@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { UsersService } from '../../services/users.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-login',
@@ -13,7 +14,7 @@ export class LoginComponent {
   showError: boolean = false;
   errorMessage: string = '';
 
-  constructor(private usersService: UsersService, private router: Router) {}
+  constructor(private usersService: UsersService, private router: Router,  private translate: TranslateService) {}
 
   onLogin() {
     this.usersService
@@ -22,8 +23,10 @@ export class LoginComponent {
         if (isValid) {
           this.router.navigate(['/main']);
         } else {
-          this.errorMessage = 'Datos incorrectos. Revise usuario y/o clave';
-          this.showError = true;
+          this.translate.get('ERROR_MESSAJE').subscribe((translatedMessage: string) => {
+            this.errorMessage = translatedMessage;
+            this.showError = true;
+          });
         }
       });
   }

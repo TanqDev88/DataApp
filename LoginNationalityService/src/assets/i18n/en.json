@@ -9,5 +9,6 @@
   "GENDER": "Gender",
   "PROBABILITY": "Probability",
   "PROBABILITY_COUNTRY": "Probability by country",
-  "GET_INFORMATIONS": "Get data"
+  "GET_INFORMATIONS": "Get data",
+  "ERROR_MESSAJE": "Incorrect data. Check username and/or password"
 }
