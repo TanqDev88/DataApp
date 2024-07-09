@@ -141,19 +141,33 @@ d. The cost of the free track hour must be 8020.00<br>
      - Only allows access to the Drivers and Vehicles modules but not the creation or editing of the records of these screens (Query type user)
 </ul>
 
-## 💻 Users for testing:
+## 💻 Users for testing (login):
 
-### ADMINISTRATOR:
-- **Usuario:** admin@admin.com
-- **Contraseña:** PmU3.UCj3pPt-rp
+### USER - 1:
+- **Usuario:** Sincere@april.biz
+- **Contraseña:** -37.3159
 
-### RINGMASTER:
-- **Usuario:** jefe@pista.com
-- **Contraseña:** .w_Q93GWDNJvivu
+### USER - 2:
+- **Usuario:** Shanna@melissa.tv
+- **Contraseña:** -43.9509
 
-### OWNER:
-- **Usuario:** propietario@dominio.com
-- **Contraseña:** 3KTU_Ffub5s-ZFd
+### USER - 3:
+- **Usuario:** Nathan@yesenia.net
+- **Contraseña:** -68.6102
+
+   </details>
+   <hr>
+
+## 💻 Users for testing (Get data):
+
+### USER - 1:
+- Clementine Bauch
+
+### USER - 2:
+- Patricia Lebsack
+
+### USER - 3:
+- Chelsey Dietrich
 
    </details>
    <hr>
